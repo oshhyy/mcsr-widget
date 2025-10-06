@@ -8,7 +8,7 @@ const newLocal = '/'
 // https://vite.dev/config/
 export default defineConfig({
   // publicPath: newLocal,
-  base: process.env.NODE_ENV === '/mcsr-widget/',
+  base: '/mcsr-widget/',
   transpileDependencies: true,
   plugins: [vue(), vueDevTools()],
   resolve: {
